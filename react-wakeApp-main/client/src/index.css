@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0378a6 !important;
+  color: #f2f2f2 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.megaphone {
+  height: 70px !important;
+  width: auto !important;
+  padding-left: 10px !important;
+  padding-top: 5px !important;
+}
+
+.TitleDiv {
+  display: flex !important;
+  flex-direction: row !important;
+  margin: auto !important;
+}
+.TitlePlusSubtitle {
+  color: "white";
+  display: flex !important;
+  flex-direction: column !important;
+  padding-top: 10px !important;
+}
+
+.Woke {
+  display: flex !important;
+  margin-top: -15px !important;
+  margin-left: 25px !important;
+}
+
+.btnLogin {
+  color: #f2f2f2 !important;
+  margin-right: 10px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+}
+
+.start {
+  color: #f2f2f2 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+}
+.play {
+  margin-left: 7px !important;
+}
+
+.quote {
+  filter: invert(97%) sepia(97%) saturate(12%) hue-rotate(183deg)
+    brightness(103%) contrast(103%);
+}
+
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
